@@ -9,7 +9,6 @@ def returnLen(string):
     #split the string
     str1=string.strip()
     for i in range(len(string)):
-        #check whether the character is space.If space is encountered, reinitial the counter to 0 else increment the counter by 1
         if str1[i]==' ':
             count=0
         else:
